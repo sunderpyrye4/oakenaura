@@ -1,0 +1,101 @@
+/* Policy Pages Styles */
+.policy-container {
+    max-width: 800px;
+    margin: 140px auto 80px;
+    padding: 0 20px;
+}
+
+.policy-container h1 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.policy-container h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.policy-container h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.policy-container p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.policy-container ul, .policy-container ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.policy-container li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.policy-container .last-updated {
+    text-align: center;
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: 40px;
+}
+
+.back-to-home {
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.policy-note {
+    background-color: var(--secondary);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin: 30px 0;
+    border-left: 4px solid var(--primary);
+}
+
+.policy-contact-info {
+    background-color: var(--secondary);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    margin-top: 30px;
+}
+
+.policy-contact-info h3 {
+    margin-top: 0;
+}
+
+.table-of-contents {
+    background-color: var(--secondary);
+    padding: 25px;
+    border-radius: var(--border-radius);
+    margin-bottom: 40px;
+}
+
+.table-of-contents h3 {
+    margin-top: 0;
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 8px;
+}
+
+.table-of-contents a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
